@@ -17,7 +17,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
-  color: #2e2f42;
+  color: #434455;
 }
 
 a {
@@ -34,6 +34,7 @@ h2 {
   line-height: 1.11111;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 
 h3 {
@@ -61,14 +62,14 @@ p {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color:#4d5ae5;
 }
 
-.logo span, .footer-logo span {
-  color: #4d5ae5;
+.logo-style {
+  color: #2e2f42;
 }
 
 .nav-item {
@@ -76,18 +77,18 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.nav-item:hover {
+.nav-item:hover, .nav-item:focus {
     color: #404bbf;
 }
 
-.nav-item:active {
-  color: #404bbf;
-  text-decoration: underline;
+.contacts {
+  font-style: normal;
 }
 
-address a {
+.contacts a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -95,7 +96,7 @@ address a {
   color: #434455;
 }
 
-address a:hover {
+.contacts a:hover, .contacts a:focus {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -110,7 +111,7 @@ address a:hover {
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -124,16 +125,17 @@ address a:hover {
   color: #fff;
   background: #4d5ae5;
   border: none;
+  cursor: pointer;
 }
 
-.main-btn:hover {
+.main-btn:hover, .main-btn:focus {
   background: #404bbf;
 }
 
 .advantages-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
 }
 
@@ -141,8 +143,12 @@ address a:hover {
   background-color: #f4f4fd;
 }
 
+.our-team-title {
+  line-height: 1.11;
+  color: #2e2f42;
+}
+
 .our-team-item {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
 
