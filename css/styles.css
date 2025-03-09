@@ -31,7 +31,7 @@ li {
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -88,7 +88,7 @@ p {
   font-style: normal;
 }
 
-.contacts a {
+.contacts-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -96,7 +96,7 @@ p {
   color: #434455;
 }
 
-.contacts a:hover, .contacts a:focus {
+.contacts-link:hover, .contacts-link:focus {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -135,7 +135,6 @@ p {
 .advantages-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
   letter-spacing: 0.02em;
 }
 
@@ -144,7 +143,6 @@ p {
 }
 
 .our-team-title {
-  line-height: 1.11;
   color: #2e2f42;
 }
 
@@ -152,9 +150,19 @@ p {
   background: #fff;
 }
 
-.footer-logo {
+.our-team-item-title, .our-portfolio-item-title {
+  color: #2e2f42;
+}
+
+.our-portfolio-title {
+  color: #2e2f42;
+  line-height: 1.11;
+}
+
+.footer-logo-style {
 color: #f4f4fd;
 }
+
 .footer-descr {
   color: #f4f4fd;
 }
