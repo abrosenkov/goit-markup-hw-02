@@ -150,13 +150,17 @@ p {
   background: #fff;
 }
 
-.our-team-item-title, .our-portfolio-item-title {
+.our-team-item-title {
   color: #2e2f42;
 }
 
 .our-portfolio-title {
   color: #2e2f42;
   line-height: 1.11;
+}
+
+.our-portfolio-item-title {
+  color: #2e2f42;
 }
 
 .footer-logo-style {
